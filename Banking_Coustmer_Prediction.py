@@ -7,7 +7,9 @@ import pickle
 
 # Load model
 
-model = pickle.load(open('Banking_Coustmer_Prediction.sav', 'rb'))
+import os
+model_path = os.getenv('MODEL_PATH', 'Banking_Coustmer_Prediction.sav')
+model = pickle.load(open(model_path, 'rb'))
 
 
 # # Load data
