@@ -7,10 +7,8 @@ import pickle
 
 # Load model
 
-import os
-model_path = os.getenv('MODEL_PATH', 'Banking_Coustmer_Prediction.sav')
-model = pickle.load(open(model_path, 'rb'))
-
+Coustomer_Churn_Pre = '/Users/mohammedmahmood/Desktop/Final Project/Banking_Coustmer_Prediction.sav'
+model = pickle.load(open(Coustomer_Churn_Pre, 'rb'))
 
 # # Load data
 data= pd.read_csv("/Users/mohammedmahmood/Downloads/Bank Customer Churn Prediction.csv")
