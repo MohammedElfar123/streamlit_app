@@ -7,8 +7,7 @@ import pickle
 
 # Load model
 
-Coustomer_Churn_Pre = '/Users/mohammedmahmood/Desktop/Final Project/Banking_Coustmer_Prediction.sav'
-model = pickle.load(open(Coustomer_Churn_Pre, 'rb'))
+model = pickle.load(open('/Users/mohammedmahmood/Desktop/Final Project/Banking_Coustmer_Prediction.sav', 'rb'))
 
 
 # # Load data
