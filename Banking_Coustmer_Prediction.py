@@ -11,7 +11,7 @@ Coustomer_Churn_Pre = 'Banking_Coustmer_Prediction.sav'
 model = pickle.load(open(Coustomer_Churn_Pre, 'rb'))
 
 # # Load data
-data= pd.read_csv("/Users/mohammedmahmood/Downloads/Bank Customer Churn Prediction.csv")
+data= pd.read_csv("Bank Customer Churn Prediction.csv")
 
 
 # Define page options
